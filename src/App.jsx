@@ -1,6 +1,7 @@
 import style from './App.module.css';
 import ImageSlider from './components/ImageSlider';
 import ProductFilter from './components/ProductFilter';
+import ImageCarousal from './components/ImageCarousal';
 
 const App = () => {
   const images = [
@@ -40,6 +41,7 @@ const App = () => {
         <ImageSlider images={images} arrows={false} />
         <div className={style.productFilterComponent}>
           <ProductFilter />
+          <ImageCarousal images={images} />
         </div>
       </div>
     </>

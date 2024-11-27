@@ -8,4 +8,7 @@
 .productFilterComponent {
   grid-column-start: 1;
   grid-column-end: 5;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }

@@ -1,3 +1,7 @@
+.container {
+  background-color: aliceblue;
+}
+
 .imageContainer {
   height: 200px;
   width: 300px;
