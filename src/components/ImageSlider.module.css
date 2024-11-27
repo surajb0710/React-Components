@@ -1,0 +1,47 @@
+.imageContainer {
+  height: 200px;
+  width: 300px;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+
+.title {
+  text-align: center;
+}
+
+.sliderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.previous,
+.next {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.bubbleNavigatorContainer {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bubbleNavigator {
+  padding: 5px;
+}
+
+.active {
+  background-color: #007bff; /* Highlight color */
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
