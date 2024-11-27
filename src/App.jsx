@@ -28,13 +28,14 @@ const App = () => {
   return (
     <>
       <div className={style.appContainer}>
+        <ImageSlider images={images} />
         <ImageSlider
           images={images}
           arrows={false}
-          bubbles={false}
+          navigationDots={false}
           delayTime={2000}
         />
-        <ImageSlider images={images} bubbles={false} />
+        <ImageSlider images={images} navigationDots={false} />
         <ImageSlider images={images} arrows={false} />
         {/* <ImageSlider images={images} />
         <ImageSlider images={images} />

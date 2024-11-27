@@ -35,11 +35,14 @@
 
 .bubbleNavigator {
   padding: 5px;
+  border: none;
+  background-color: #0000;
+  color: black;
 }
 
 .active {
-  background-color: #007bff; /* Highlight color */
-  color: white;
+  /* Highlight color */
+  color: aqua;
 }
 
 .hidden {
