@@ -1,5 +1,6 @@
 import style from './App.module.css';
 import ImageSlider from './components/ImageSlider';
+import ProductFilter from './components/ProductFilter';
 
 const App = () => {
   const images = [
@@ -37,12 +38,9 @@ const App = () => {
         />
         <ImageSlider images={images} navigationDots={false} />
         <ImageSlider images={images} arrows={false} />
-        {/* <ImageSlider images={images} />
-        <ImageSlider images={images} />
-        <ImageSlider images={images} />
-        <ImageSlider images={images} />
-        <ImageSlider images={images} />
-        <ImageSlider images={images} /> */}
+        <div className={style.productFilterComponent}>
+          <ProductFilter />
+        </div>
       </div>
     </>
   );
