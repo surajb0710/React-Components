@@ -1,5 +1,5 @@
 import styles from './ProductFilter.module.css';
-import words from '../../data/words.json';
+import words from '../../data/data.json';
 import { useState } from 'react';
 
 const ProductFilter = () => {

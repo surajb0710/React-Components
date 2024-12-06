@@ -1,0 +1,41 @@
+.ratingContainer {
+  display: grid;
+  place-items: center;
+  padding: 5px;
+  background-color: aliceblue;
+}
+
+.sliderContainer {
+  display: grid;
+  align-items: center;
+  grid-template-columns: max-content max-content 1fr max-content;
+  gap: 5px;
+  padding: 5px;
+
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.sliderContainer > input {
+  width: 100%;
+}
+
+.sliderContainer > p {
+  margin: 0;
+}
+
+.sliderContainer > p:first-child {
+  width: 10px;
+}
+
+.sliderContainer > p:last-child {
+  width: 20px;
+}
+
+.sliderContainer > input[type='range']::-webkit-slider-thumb {
+  opacity: 0;
+}
+
+.sliderContainer > svg {
+  color: green;
+}

@@ -260,5 +260,83 @@
     "zoo",
     "zoom",
     "zephyr"
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "category": "Electronics",
+      "price": 79.99,
+      "ratings": [
+        { "rating": 1, "count": 3 },
+        { "rating": 2, "count": 2 },
+        { "rating": 3, "count": 7 },
+        { "rating": 4, "count": 15 },
+        { "rating": 5, "count": 23 }
+      ],
+      "totalRatings": 177,
+      "averageRating": 4.2
+    },
+    {
+      "id": 2,
+      "name": "Laptop Backpack",
+      "category": "Accessories",
+      "price": 49.99,
+      "ratings": [
+        { "rating": 1, "count": 4 },
+        { "rating": 2, "count": 6 },
+        { "rating": 3, "count": 12 },
+        { "rating": 4, "count": 18 },
+        { "rating": 5, "count": 10 }
+      ],
+      "totalRatings": 136,
+      "averageRating": 3.4
+    },
+    {
+      "id": 3,
+      "name": "Smartphone",
+      "category": "Electronics",
+      "price": 699.99,
+      "ratings": [
+        { "rating": 1, "count": 0 },
+        { "rating": 2, "count": 0 },
+        { "rating": 3, "count": 0 },
+        { "rating": 4, "count": 0 },
+        { "rating": 5, "count": 50 }
+      ],
+      "totalRatings": 250,
+      "averageRating": 5.0
+    },
+    {
+      "id": 4,
+      "name": "Desk Lamp",
+      "category": "Furniture",
+      "price": 19.99,
+      "ratings": [
+        { "rating": 1, "count": 5 },
+        { "rating": 2, "count": 10 },
+        { "rating": 3, "count": 15 },
+        { "rating": 4, "count": 10 },
+        { "rating": 5, "count": 10 }
+      ],
+      "totalRatings": 80,
+      "averageRating": 3.2
+    },
+    {
+      "id": 5,
+      "name": "Water Bottle",
+      "category": "Sports",
+      "price": 15.99,
+      "ratings": [
+        { "rating": 1, "count": 0 },
+        { "rating": 2, "count": 1 },
+        { "rating": 3, "count": 4 },
+        { "rating": 4, "count": 12 },
+        { "rating": 5, "count": 33 }
+      ],
+      "totalRatings": 157,
+      "averageRating": 4.6
+    }
   ]
 }

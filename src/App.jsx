@@ -3,6 +3,8 @@ import ImageSlider from './components/ImageSlider';
 import ProductFilter from './components/ProductFilter';
 import ImageCarousal from './components/ImageCarousal';
 import Slider from './components/Slider';
+import products from '../data/data.json';
+import ProductRating from './components/ProductRating';
 
 const App = () => {
   const images = [
@@ -28,6 +30,8 @@ const App = () => {
     },
   ];
 
+  const product = products.products[0];
+
   return (
     <>
       <h1>React Begineer Friendly Components</h1>
@@ -46,6 +50,7 @@ const App = () => {
           <ImageCarousal images={images} />
         </div>
         <Slider min={1} max={20} />
+        <ProductRating product={product} />
       </div>
       <div className={style.webResponsiveTextContainer}>
         <h1>This site is best viewed on a computer.</h1>
