@@ -1,5 +1,8 @@
 .sliderContainer {
   padding: 10px;
+  background-color: aliceblue;
+  display: grid;
+  place-items: center;
 }
 
 .bubble {

@@ -13,6 +13,7 @@ const Slider = ({ min, max }) => {
   });
   return (
     <div className={style.sliderContainer}>
+      <h1>Slider</h1>
       <input
         type="range"
         min={min}

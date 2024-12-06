@@ -30,6 +30,7 @@ const App = () => {
 
   return (
     <>
+      <h1>React Begineer Friendly Components</h1>
       <div className={style.appContainer}>
         <ImageSlider images={images} />
         <ImageSlider
@@ -45,6 +46,9 @@ const App = () => {
           <ImageCarousal images={images} />
         </div>
         <Slider min={1} max={20} />
+      </div>
+      <div className={style.webResponsiveTextContainer}>
+        <h1>This site is best viewed on a computer.</h1>
       </div>
     </>
   );
