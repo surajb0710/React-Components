@@ -22,14 +22,6 @@ cd react-component-library
 Install dependencies:
 npm install
 
-Usage
-Import and use any component in your project:
-import { Button } from './components/Button';
-
-function App() {
-return <Button label="Click Me" onClick={() => alert('Button Clicked!')} />;
-}
-
 Development
 To start the development server:
 npm start
