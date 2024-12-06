@@ -24,11 +24,23 @@ npm install
 
 Usage
 Import and use any component in your project:
-import { Button } from './components/Button';
 
-function App() {
-return <Button label="Click Me" onClick={() => alert('Button Clicked!')} />;
-}
+import ImageSlider from './components/ImageSlider';
+import ProductFilter from './components/ProductFilter';
+import ImageCarousal from './components/ImageCarousal';
+import Slider from './components/Slider';
+
+const App = () => {
+
+return (
+<>
+<ImageSlider images={imagesArray} />
+<ProductFilter />
+<ImageCarousal images={imagesArray} />
+<Slider min={1} max={20} />
+</>
+);
+};
 
 Development
 To start the development server:

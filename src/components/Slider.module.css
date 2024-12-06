@@ -1,0 +1,11 @@
+.sliderContainer {
+  padding: 10px;
+}
+
+.bubble {
+  text-align: center;
+}
+
+.sliderContainer > input {
+  width: 100%;
+}
