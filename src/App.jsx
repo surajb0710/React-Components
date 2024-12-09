@@ -7,6 +7,7 @@ import products from '../data/data.json';
 import ProductRating from './components/ProductRating';
 import CustomerReview from './components/CustomerReview';
 import CartItem from './components/CartItem';
+import PaymentSummary from './components/PaymentSummary';
 
 const App = () => {
   const images = [
@@ -55,6 +56,7 @@ const App = () => {
         </div>
         <Slider min={1} max={20} />
         <ProductRating product={product} />
+        <PaymentSummary />
       </div>
       <div className={style.webResponsiveTextContainer}>
         <h1>This site is best viewed on a computer.</h1>

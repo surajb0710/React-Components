@@ -1,9 +1,14 @@
+.cartItemLabel {
+  text-align: left;
+}
+
 .container {
   display: flex;
   gap: 10px;
   width: 600px;
   padding: 10px;
   box-sizing: border-box;
+  background-color: aliceblue;
 }
 
 .container * {

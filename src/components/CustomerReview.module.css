@@ -1,3 +1,7 @@
+.customerReviewComponentLabel {
+  text-align: left;
+}
+
 .container {
   max-width: 600px;
   display: grid;
@@ -6,6 +10,7 @@
   place-content: start;
   gap: 5px;
   padding: 5px;
+  background-color: aliceblue;
 }
 
 .container * {
