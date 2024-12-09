@@ -5,6 +5,7 @@ import ImageCarousal from './components/ImageCarousal';
 import Slider from './components/Slider';
 import products from '../data/data.json';
 import ProductRating from './components/ProductRating';
+import CustomerReview from './components/CustomerReview';
 
 const App = () => {
   const images = [
@@ -48,6 +49,7 @@ const App = () => {
         <div className={style.productFilterComponent}>
           <ProductFilter />
           <ImageCarousal images={images} />
+          <CustomerReview />
         </div>
         <Slider min={1} max={20} />
         <ProductRating product={product} />
